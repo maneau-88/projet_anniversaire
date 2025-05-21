@@ -5,7 +5,7 @@ import { X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 interface PromotionPopupProps {
-  delayBeforeShow?: number; // in milliseconds
+  delayBeforeShow?: 9000; // in milliseconds
 }
 
 const PromotionPopup: React.FC<PromotionPopupProps> = ({ delayBeforeShow = 3000 }) => {

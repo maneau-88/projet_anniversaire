@@ -97,7 +97,7 @@ const Register = () => {
         email: formData.email,
         phone: formData.phone,
         code: userCode,
-        role: 'participant'
+        role: 'admin', 
       };
       
       // Get existing users or create empty array

@@ -63,13 +63,13 @@ const Index = () => {
               >
                 S'inscrire maintenant
               </Button>
-              <Button 
+              {/*<Button 
                 onClick={() => navigate('/schedule')}
                 variant="outline"
                 className="border-festival-purple text-festival-purple hover:bg-festival-purple/5 text-lg"
               >
                 Voir le programme
-              </Button>
+              </Button>*/}
             </div>
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
@@ -121,7 +121,7 @@ const Index = () => {
                 <MapPin className="h-6 w-6 text-festival-blue" />
               </div>
               <h3 className="font-bold text-xl mb-2">Lieu</h3>
-              <p className="text-gray-600">Salle des Fêtes<br />123 Rue de la Fête, Paris</p>
+              <p className="text-gray-600">Salle des Fêtes<br />Etoile D'Or Sablière, Libreville</p>
             </div>
             
             <div className="festival-card flex flex-col items-center text-center p-6">
@@ -215,13 +215,13 @@ const Index = () => {
           </div>
           
           <div className="text-center mt-12">
-            <Button 
+            {/*<Button 
               onClick={() => navigate('/schedule')}
               variant="outline"
               className="border-festival-blue text-festival-blue hover:bg-festival-blue/5"
             >
               Programme complet
-            </Button>
+            </Button>*/}
           </div>
         </div>
       </section>
@@ -249,7 +249,7 @@ const Index = () => {
         </div>
       </section>
       
-      <PromotionPopup delayBeforeShow={5000} />
+      <PromotionPopup delayBeforeShow={9000} />
       <Footer />
     </div>
   );

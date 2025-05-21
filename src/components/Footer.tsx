@@ -10,14 +10,14 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 bg-festival-pink rounded-full flex items-center justify-center">
-                <span className="font-script text-white text-2xl font-bold">B</span>
+                <span className="font-script text-white text-2xl font-bold">A</span>
               </div>
               <span className="font-display font-bold text-xl">
-                Birthday<span className="text-festival-pink">Bash</span>
+                Anniversaire<span className="text-festival-pink">Party</span>
               </span>
             </div>
             <p className="text-sm text-gray-600 mb-4">
-              Célébrez avec nous cet événement inoubliable! Une journée de fête, de joie et de souvenirs à créer ensemble.
+              Célébrez avec nous cet événement inoubliable!<br />Une journée de joie et de souvenirs à créer ensemble.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-8 h-8 rounded-full bg-festival-pink flex items-center justify-center text-white">
@@ -43,7 +43,7 @@ const Footer = () => {
           <div>
             <h3 className="font-display font-bold text-lg mb-4">Liens Rapides</h3>
             <ul className="space-y-2">
-              <li>
+              {/*<li>
                 <Link to="/" className="text-gray-600 hover:text-festival-pink transition-colors">Accueil</Link>
               </li>
               <li>
@@ -51,45 +51,45 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/schedule" className="text-gray-600 hover:text-festival-pink transition-colors">Programme</Link>
-              </li>
+              </li>*/}
               <li>
                 <Link to="/register" className="text-gray-600 hover:text-festival-pink transition-colors">S'inscrire</Link>
               </li>
-              <li>
+              {/*<li>
                 <Link to="/login" className="text-gray-600 hover:text-festival-pink transition-colors">Se connecter</Link>
-              </li>
+              </li>*/}
             </ul>
           </div>
           
           <div>
             <h3 className="font-display font-bold text-lg mb-4">Contact</h3>
             <ul className="space-y-3">
-              <li className="flex gap-3 items-start">
+              {/*<li className="flex gap-3 items-start">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-festival-pink mt-1">
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                   <circle cx="12" cy="10" r="3"></circle>
                 </svg>
                 <span className="text-gray-600">123 Rue de la Fête, 75000 Paris</span>
-              </li>
+              </li>*/}
               <li className="flex gap-3 items-start">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-festival-pink mt-1">
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
-                <span className="text-gray-600">+33 1 23 45 67 89</span>
+                <span className="text-gray-600">+241 074169172</span>
               </li>
               <li className="flex gap-3 items-start">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-festival-pink mt-1">
                   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                   <polyline points="22,6 12,13 2,6"></polyline>
                 </svg>
-                <span className="text-gray-600">contact@birthdaybash.com</span>
+                <span className="text-gray-600">contact@AnniversaireParty.com</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-200 pt-6 mt-8 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} BirthdayBash. Tous droits réservés.</p>
+          <p>&copy; {new Date().getFullYear()} AnniversaireParty. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
